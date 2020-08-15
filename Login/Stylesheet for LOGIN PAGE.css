@@ -1,0 +1,97 @@
+h1.login{
+    text-align:center;
+    font-family: "Brush Script MT", Copperlate, Fantasy, monospace ;
+    letter-spacing:2px;
+    font-weight: 900;
+    color: #00ffb3;
+    text-decoration: underline;
+    font-size: 50px;
+}
+form{
+    font-size: 30px;
+    text-align: center;
+    color: #3f0ccc;
+}
+form #username, #email{
+    margin-top: 25px;
+    font-size:small;
+    font-family: "Avant Garde", "Segoe UI", "Sans-serif";
+    font-size: 18px;
+    width: 280px;
+    height: 20px;
+    min-width: 0px;
+    max-width: 500px;
+
+}
+form #submit{
+    margin-top: 25px;
+    font-size:small;
+    font-family: "Avant Garde", "Segoe UI", "Sans-serif";
+    font-size: 18px;
+    width: 125px;
+    height: 30px;
+    min-width: 0px;
+    max-width: 200px;
+    
+}
+form #password{
+    margin-top: 25px;
+    font-size:small;
+    font-family: "Avant Garde", "Segoe UI", "Sans-serif";
+    font-size: 18px;
+    width: 250px;
+    height: 20px;
+    min-width: 0px;
+    max-width: 500px;
+}
+a:link{
+    display:block;
+    text-align:center;
+    color: white;
+}
+a:visited{
+    display:block;
+    text-align:center;
+    color: #00ffb3;;
+}
+a:hover{
+    display:block;
+    text-align:center;
+    color: rgb(0, 17, 255);
+}
+a:active{
+    display:block;
+    text-align:center;
+    color: #00ffb3;;
+}
+html{
+    background-image: url("./galaxy_stars_nebulae_clusters_68741_1600x900.jpg");
+}
+form label{
+    color:black;
+    font-weight: 600;
+}
+
+input  {
+    background: linear-gradient(rgb(16, 19, 185), rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    border-radius: 15px;
+}
+#submit{
+    background: linear-gradient(rgb(8, 189, 105), rgb(55, 0, 117));
+    border: 3px solid #03174e;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+::placeholder{
+    color: white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+  svg {
+      color: black;
+  }
