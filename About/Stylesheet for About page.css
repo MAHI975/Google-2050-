@@ -1,0 +1,23 @@
+html{
+    background: #DAE2F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: underline;
+    text-shadow: 3px 4px 4px #000000;
+}
+p{
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p strong{
+    font-weight: 700;
+    text-decoration: underline;
+}
